@@ -58,8 +58,4 @@ if __name__ == '__main__':
     # inputdf2.show()
     # inputdf2.printSchema()
 
-    csvnoheaderdf2=spark.read.csv(r"C:\Users\Admin\Desktop\sdf.xlsx.csv",schema=dataschema,header=True)
-    # csvnoheaderdf2.show()
-    # csvnoheaderdf2.printSchema()
-
-    csvnoheaderdf2.write.csv(r"C:\Users\Admin\PycharmProjects\pysparktutorial\output\csvsss")
+    
